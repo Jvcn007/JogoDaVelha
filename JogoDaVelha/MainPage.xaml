@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JogoDaVelha.MainPage">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+            <GradientStop Color="Purple" Offset="0.3" />
+            <GradientStop Color="Goldenrod" Offset="1.1" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Transparent" /> <!-- Cor interna do quadrado -->
+            <Setter Property="BorderColor" Value="White" /> <!-- Cor da borda do quadrado -->
+            <Setter Property="CornerRadius" Value="15" /> <!-- Forma interna quadrado -->
+            <Setter Property="BorderWidth" Value="2" /> <!-- Grossura da borda do quadrado -->
+            <Setter Property="TextColor" Value="White" /> <!-- Cor do X e O do quadrado -->
+            <Setter Property="FontSize" Value="80" /> <!-- Tamanho do X e O do quadrado -->
+        </Style>
+    </ContentPage.Resources>
+
+
+
+
+
+    <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*" ColumnSpacing="15" RowSpacing="15" Margin="15">
+        <!-- RowDefinitions define a quantidade de linhas através de *. -->
+        <!-- ColumnDefinition define a quantidade de colunas através de *. -->
+        <!-- ColumnSpacing define a distância entre os quadrados uns dos outros entre as colunas. -->
+        <!-- RowSpacing define a distância entre os quadrados uns dos outros entre as linhas. -->
+        <!-- Margin define a distância da margem dos quadrados.  -->
+
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontSize="50" TextColor="White" Text="         Jogo da Velha" />
+        <!-- Grid.Row/collumn definem a posição do texto entre as linhas e colunas, Grid.ColumnSpan define quantas 
+        colunas o texto pode ocupar, FontSize e Text definem o tamanho e o texto, consecutivamente. -->
+
+        <Button x:Name="btn10" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked" />
+        <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked" />
+        <Button x:Name="btn12" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked" />
+
+        <Button x:Name="btn20" Grid.Row="2" Grid.Column="0" Clicked="Button_Clicked" />
+        <Button x:Name="btn21" Grid.Row="2" Grid.Column="1" Clicked="Button_Clicked" />
+        <Button x:Name="btn22" Grid.Row="2" Grid.Column="2" Clicked="Button_Clicked" />
+
+        <Button x:Name="btn30" Grid.Row="3" Grid.Column="0" Clicked="Button_Clicked" />
+        <Button x:Name="btn31" Grid.Row="3" Grid.Column="1" Clicked="Button_Clicked" />
+        <Button x:Name="btn32" Grid.Row="3" Grid.Column="2" Clicked="Button_Clicked" />
+        <!-- x:Name define o nome para um botão, Grid.Row/Column definem sua posição na tabela, sendo linha e coluna,
+        consecutivamente. Já o Clicked define o que o botão irá fazer quando for clicado. -->
+    </Grid>
+
+
+</ContentPage>
