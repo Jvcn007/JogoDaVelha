@@ -32,51 +32,51 @@ namespace JogoDaVelha
             // Linhas
             if (btn10.Text == "X" && btn11.Text == "X" && btn12.Text == "X")
             {
-                await DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O X ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn20.Text == "X" && btn21.Text == "X" && btn22.Text == "X")
             {
-                await DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O X ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn30.Text == "X" && btn31.Text == "X" && btn32.Text == "X")
             {
-                await DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O X ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             //Diagonais X
             if (btn10.Text == "X" && btn21.Text == "X" && btn32.Text == "X")
             {
-                await DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O X ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn30.Text == "X" && btn21.Text == "X" && btn12.Text == "X")
             {
-                await DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O X ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             // Colunas
             if (btn10.Text == "X" && btn20.Text == "X" && btn30.Text == "X")
             {
-                await DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O X ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn11.Text == "X" && btn21.Text == "X" && btn31.Text == "X")
             {
-                await DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O X ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn12.Text == "X" && btn22.Text == "X" && btn32.Text == "X")
             {
-                await DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O X ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
@@ -90,63 +90,63 @@ namespace JogoDaVelha
             // Linhas
             if (btn10.Text == "O" && btn11.Text == "O" && btn12.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn20.Text == "O" && btn21.Text == "O" && btn22.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn30.Text == "O" && btn31.Text == "O" && btn32.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn10.Text == "O" && btn21.Text == "O" && btn32.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn30.Text == "O" && btn21.Text == "O" && btn12.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             //Diagonais O
             if (btn10.Text == "O" && btn21.Text == "O" && btn32.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn30.Text == "O" && btn21.Text == "O" && btn12.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             // Colunas
             if (btn10.Text == "O" && btn20.Text == "O" && btn30.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn11.Text == "O" && btn21.Text == "O" && btn31.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 
             if (btn12.Text == "O" && btn22.Text == "O" && btn32.Text == "O")
             {
-                await DisplayAlert("Parabéns!", "O ganhou!", "OK");
+                await DisplayAlert("Parabéns!", "O ganhou!", "OK, reiniciar");
                 Zerar();
             }
 

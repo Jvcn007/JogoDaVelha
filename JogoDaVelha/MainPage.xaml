@@ -32,7 +32,7 @@
         <!-- RowSpacing define a distância entre os quadrados uns dos outros entre as linhas. -->
         <!-- Margin define a distância da margem dos quadrados.  -->
 
-        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontSize="50" TextColor="White" Text="         Jogo da Velha" />
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontSize="43" TextColor="White" Text="Jogo da Velha" FontFamily=""  VerticalOptions="CenterAndExpand" HorizontalOptions="Center"  />
         <!-- Grid.Row/collumn definem a posição do texto entre as linhas e colunas, Grid.ColumnSpan define quantas 
         colunas o texto pode ocupar, FontSize e Text definem o tamanho e o texto, consecutivamente. -->
 
