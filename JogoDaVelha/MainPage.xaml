@@ -5,8 +5,8 @@
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-            <GradientStop Color="Purple" Offset="0.3" />
-            <GradientStop Color="Goldenrod" Offset="1.1" />
+            <GradientStop Color="Mediumblue" Offset="0.1" />
+            <GradientStop Color="MediumAquamarine" Offset="1.1" />
         </LinearGradientBrush>
     </ContentPage.Background>
 
@@ -25,7 +25,7 @@
 
 
 
-    <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*" ColumnSpacing="15" RowSpacing="15" Margin="15">
+    <Grid RowDefinitions="*,*,*,*" ColumnDefinitions="*,*,*" ColumnSpacing="15" RowSpacing="20" Margin="15">
         <!-- RowDefinitions define a quantidade de linhas através de *. -->
         <!-- ColumnDefinition define a quantidade de colunas através de *. -->
         <!-- ColumnSpacing define a distância entre os quadrados uns dos outros entre as colunas. -->
