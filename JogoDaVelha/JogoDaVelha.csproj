@@ -49,11 +49,16 @@
 	  <AndroidPackageFormat>apk</AndroidPackageFormat>
 	  <ApplicationDisplayVersion>7.0.3</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
+	  <Debugger>Xamarin</Debugger>
+	  <AndroidKeyStore>False</AndroidKeyStore>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
 	  <ApplicationDisplayVersion>7.0.3</ApplicationDisplayVersion>
 	  <ApplicationVersion>7</ApplicationVersion>
+	  <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+	  <Debugger>Xamarin</Debugger>
+	  <AndroidKeyStore>False</AndroidKeyStore>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-ios|AnyCPU'">
